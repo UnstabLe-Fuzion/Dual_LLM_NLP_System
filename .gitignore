@@ -1,0 +1,74 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Testing and coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if applicable)
+*.log
+local_settings.py
+db.sqlite3
+
+# Machine Learning Models and Data
+models/ # Directory for saved models
+data/ # Directory for raw or processed data
+*.ckpt # Checkpoint files from TensorFlow/PyTorch
+*.pth # PyTorch model files
+*.h5 # Keras/TensorFlow model files
+*.pkl # Pickle files for models or data
+*.joblib # Joblib files for models or data
+*.csv # Large CSV data files (if not essential for the repo)
+*.jsonl # Large JSONL data files
+*.parquet # Large Parquet data files
+
+# LLM specific files
+llm_cache/ # Cache for LLM responses
+llm_weights/ # Large LLM weight files
